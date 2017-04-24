@@ -1,20 +1,99 @@
 @CHARSET "UTF-8";
-h1{
-	color: red;font-size: 30px;font-family: 宋体;
+
+h1 {
+	color: red;
+	font-size: 30px;
+	font-family: 宋体;
 }
-p{
-	color: blue;font-size:25px;font-family: 隶书;
+
+p {
+	color: blue;
+	font-size: 25px;
+	font-family: 隶书;
 }
-.pp{
-	color: blue;font-size:50px;font-family: 隶书;
-	
+
+.pp {
+	color: blue;
+	font-size: 50px;
+	font-family: 隶书;
 }
-p.pt{
-	color: red;font-size: 50px;font-family: 宋体;
-	
+
+p.pt {
+	color: red;
+	font-size: 50px;
+	font-family: 宋体;
 }
-p i{color: blue;font-size:30px;background:red; }
-h1 i{color: blue;font-size:30px;background:red; }
-#p{
-	color: red;font-size: 50px;font-family: 宋体;
+
+p i {
+	color: blue;
+	font-size: 30px;
+	background: red;
+}
+
+h1 i {
+	color: blue;
+	font-size: 30px;
+	background: red;
+}
+
+#p {
+	color: red;
+	font-size: 50px;
+	font-family: 宋体;
+}
+
+h1#p {
+	color: maroon;
+	font-size: 40px;
+	font-family: 仿宋;
+}
+
+
+span {
+	text-decoration: underline overline line-through;
+}
+
+body {style =" padding-top:100px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+	padding-left: 100px;
+	border-top-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	background: pink;
+}
+div{
+	    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    word-spacing: 3mm;
+    letter-spacing: 1mm;
+    line-height: 300%;
+    text-align: center;
+    vertical-align: text-top;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: xx-large;
+    text-transform: capitalize;
+    background: orange;
+    word-spacing: 4px;
+    letter-spacing: normal;
+    line-height: 50px;
+    text-indent: 5%;
+    background-image: url("../timg.jpg");
+    background-repeat: repeat-x;
+    background-attachment: scroll;
 }
