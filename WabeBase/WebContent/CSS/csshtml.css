@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+h1{
+	color: red;font-size: 30px;font-family: 宋体;
+}
+p{
+	color: blue;font-size:25px;font-family: 隶书;
+}
+.pp{
+	color: blue;font-size:50px;font-family: 隶书;
+	
+}
+p.pt{
+	color: red;font-size: 50px;font-family: 宋体;
+	
+}
+p i{color: blue;font-size:30px;background:red; }
+h1 i{color: blue;font-size:30px;background:red; }
+#p{
+	color: red;font-size: 50px;font-family: 宋体;
+}
