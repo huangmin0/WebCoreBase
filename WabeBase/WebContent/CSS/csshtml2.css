@@ -1,7 +1,13 @@
 @CHARSET "UTF-8";
-h1{
-	color: pink;font-size: 30px;font-family: 宋体;
+a:link {
+color: red;
 }
-p{
-	color: yellow;font-size:25px;font-family: 隶书;
+a:visited{
+color: orange;
+}
+a:hover{
+color: maroon;
+}
+a:active{
+color: yellow;
 }
