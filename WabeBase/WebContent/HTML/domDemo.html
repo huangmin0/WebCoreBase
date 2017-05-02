@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script >
+function myFunction() {
+	var x=document.getElementById("fname");
+	x.value=x.value.toUpperCase();
+}
+
+</script>
+</head>
+<body>
+输入你的名字<input id="fname" type="text" onchange="myFunction()">
+<p>当你离开输入框后，函数将被触发，将小写字母转为大写字母。</p>
+
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color: yellow;width: 120px;height: 20px;padding: 40px;">Mouse over me</div>
+<script >
+function mOver(obj) {
+obj.innerHTML="Thank you";
+
+}
+function mOut(obj) {
+	obj.innerHTML="Mouse Over Me"
+}
+</script>
+<br/>
+<div onmousedown="mOver(this)" onmouseup="mOut(this)" style="background-color: red;width: 120px;height: 20px;padding: 40px;">Chick me</div>
+<script >
+function mOver(obj) {
+obj.innerHTML="Thank you";
+
+}
+function mOut(obj) {
+	obj.innerHTML="Release me"
+}
+</script>
+<input type="button" onclick="document.body.style.backgroundColor='pink';"
+value="修改背景颜色">
+
+<script >
+function ChangeBackground() {
+	document.body.style.backgroundColor="lavender";
+}
+</script>
+<input type="button" onclick="ChangeBackground()" value="修改背景颜色">
+<p id="p1">Hello World</p>
+<script>
+function ChangeText() {
+	document.getElementById("p1").innerHTML="Hello Runoob!";
+}
+</script>
+<input type="button" onclick="ChangeText()" value="修改文本">
+</body>
+</html>
