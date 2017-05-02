@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<input type="text" id="txt" >
+<button type="button" onclick="get_text();">Go</button>
+
+<div>我是div</div>
+<input type="button" value="Div标题选择器" onclick="divSelect()">
+
+<hr />
+	<div id="form">div的内容</div>
+	<div id="to"></div>
+	<input type="button" value="ID选择器" onclick="idSelect()">
+	
+	<ul>
+		<li class="fruit">Apple</li>
+		<li id="tomato">Tomato</li>
+		<li class="fruit">Banana</li>
+		<li>Potato</li>
+		<li class="fruit">Orange</li>
+	</ul>
+<input type="button" value="Class选择器" onclick="classSelect()">
+<input type="button" value="组合选择器" onclick="mutiSelect()">
+<hr/>
+	<div>
+		祖先元素
+		<p>
+			<label>孙元素</label> <span><label>后代元素</label></span>
+		</p>
+		<label>子元素</label> <label>子元素2</label> <label>子元素3</label> <label>子元素4</label>
+	</div>
+	<input type="button" value="祖孙后代选择器" onclick="anceDescSelect()">
+	<input type="button" value="父子选择器" onclick="anceDescSelect2()">
+	<input type="button" value="隔壁选择器" onclick="gebiSelect()">
+	<input type="button" value="邻居选择器" onclick="lingjuSelect()">
+	
+		<ul>
+		<li>Apple</li>
+		<li>Tomato</li>
+		<li>Banana</li>
+		<li>Potato</li>
+		<li>Orange</li>
+	</ul>
+	<input type="button" value="过滤选择器-firstlast" onclick="firstlastSelect()">
+	<input type="button" value="过滤选择器-firstlastchild" onclick="firstlastchildSelect()">
+	<input type="button" value="指定下标过滤器" onclick="indexSelect()">
+</body>
+</html>
